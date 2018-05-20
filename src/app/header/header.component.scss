@@ -1,0 +1,11 @@
+.fn-header {
+    h1 {
+        text-align: center;
+    }
+    &-title {
+        background-color: #ddd;
+    }
+    &-desc {
+        padding: 40px;
+    }
+}
