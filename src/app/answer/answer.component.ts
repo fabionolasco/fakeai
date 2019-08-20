@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnswerComponent implements OnInit {
 
+  public answer = localStorage.getItem('fakeanswer');
+
   constructor() { }
 
   ngOnInit() {
